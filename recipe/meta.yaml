@@ -16,7 +16,7 @@ source:
   sha256: fe1d08e29c74df6001ad3501328d230f3394acdf541fc3cb3c7251452cfd2a46
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win32]
 
   rpaths:
@@ -47,10 +47,9 @@ about:
     allometric lines, constructing a confidence interval for a common slope or elevation,
     and testing for no shift along a common axis, amongst several samples.
   license_family: GPL2
-  license_file: '{{ environ["PREFIX"] }}\/lib\/R\/share\/licenses\/GPL-2'  # [unix]
-  license_file: '{{ environ["PREFIX"] }}\R\share\licenses\GPL-2'  # [win]
 extra:
    recipe-maintainers:
+    - dpryan79
     - MathiasHaudgaard
     - FrodePedersen
     - ArneKr
