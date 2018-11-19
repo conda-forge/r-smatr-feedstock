@@ -14,9 +14,8 @@ Summary: This package provides methods of fitting bivariate lines in allometry u
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-smatr-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-smatr-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-smatr-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-smatr-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-smatr-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-smatr-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-smatr-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-smatr-feedstock)
 
 Current release info
 ====================
