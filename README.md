@@ -1,21 +1,28 @@
 About r-smatr
 =============
 
-Home: https://cran.r-project.org/web/packages/smatr/index.html
+Home: http://web.maths.unsw.edu.au/~dwarton, http://www.bitbucket.org/remkoduursma/smatr
 
 Package license: GPL-2
 
 Feedstock license: BSD 3-Clause
 
-Summary: This package provides methods of fitting bivariate lines in allometry using the major axis (MA) or standardised major axis (SMA), and for making inferences about such lines. The available methods of inference include confidence intervals and one-sample tests for slope and elevation, testing for a common slope or elevation amongst several allometric lines, constructing a confidence interval for a common slope or elevation, and testing for no shift along a common axis, amongst several samples.
+Summary: Methods for fitting bivariate lines in allometry using the major axis (MA) or standardised major axis (SMA), and for making inferences about such lines. The available methods of inference include confidence intervals and one-sample tests for slope and elevation, testing for a common slope or elevation amongst several allometric lines, constructing a confidence interval for a common slope or elevation, and testing for no shift along a common axis, amongst several samples.  See Warton et al. 2012 <doi:10.1111/j.2041-210X.2011.00153.x> for methods description.
 
 
 
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-smatr-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-smatr-feedstock)
+
+<table><tr><td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1628&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-smatr-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
@@ -48,6 +55,8 @@ conda search r-smatr --channel conda-forge
 
 About conda-forge
 =================
+
+[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
 
 conda-forge is a community-led conda channel of installable packages.
 In order to provide high-quality builds, the process has been automated into the
@@ -103,3 +112,12 @@ In order to produce a uniquely identifiable distribution:
  * If the version of a package **is** being increased, please remember to return
    the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
    back to 0.
+
+Feedstock Maintainers
+=====================
+
+* [@ArneKr](https://github.com/ArneKr/)
+* [@FrodePedersen](https://github.com/FrodePedersen/)
+* [@MathiasHaudgaard](https://github.com/MathiasHaudgaard/)
+* [@conda-forge/r](https://github.com/conda-forge/r/)
+
