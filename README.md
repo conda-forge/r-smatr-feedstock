@@ -3,7 +3,7 @@ About r-smatr
 
 Home: http://web.maths.unsw.edu.au/~dwarton, http://www.bitbucket.org/remkoduursma/smatr
 
-Package license: GPL-2
+Package license: GPL-2.0-only
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-smatr-feedstock/blob/master/LICENSE.txt)
 
