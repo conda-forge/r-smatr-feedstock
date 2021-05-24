@@ -35,7 +35,7 @@ test:
 
 about:
   home: http://web.maths.unsw.edu.au/~dwarton, http://www.bitbucket.org/remkoduursma/smatr
-  license: GPL-2
+  license: GPL-2.0-only
   summary: Methods for fitting bivariate lines in allometry using the major axis (MA) or standardised
     major axis (SMA), and for making inferences about such lines. The available methods
     of inference include confidence intervals and one-sample tests for slope and elevation,
