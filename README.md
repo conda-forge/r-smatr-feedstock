@@ -1,11 +1,11 @@
-About r-smatr
-=============
+About r-smatr-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-smatr-feedstock/blob/main/LICENSE.txt)
 
 Home: http://web.maths.unsw.edu.au/~dwarton, http://www.bitbucket.org/remkoduursma/smatr
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-smatr-feedstock/blob/main/LICENSE.txt)
 
 Summary: Methods for fitting bivariate lines in allometry using the major axis (MA) or standardised major axis (SMA), and for making inferences about such lines. The available methods of inference include confidence intervals and one-sample tests for slope and elevation, testing for a common slope or elevation amongst several allometric lines, constructing a confidence interval for a common slope or elevation, and testing for no shift along a common axis, amongst several samples.  See Warton et al. 2012 <doi:10.1111/j.2041-210X.2011.00153.x> for methods description.
 
