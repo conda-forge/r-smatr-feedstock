@@ -1,6 +1,5 @@
 {% set version = '3.4-8' %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-smatr
@@ -13,8 +12,7 @@ source:
   sha256: 3669388f4abc41fac7bf008680c2fa8eddf5dffe20f5c33522b05357cc5b1863
 
 build:
-  merge_build_host: True  # [win]
-  number: 4
+  number: 5
   noarch: generic
   rpaths:
     - lib/R/lib/
