@@ -1,4 +1,4 @@
-{% set version = '3.4-8' %}
+{% set version = "3.5-1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/smatr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/smatr/smatr_{{ version }}.tar.gz
-  sha256: 3669388f4abc41fac7bf008680c2fa8eddf5dffe20f5c33522b05357cc5b1863
+  sha256: 1aab57461f93ed6bfec41f2ed55a96be5b3fe18831cf8c1162814fe388dc511a
 
 build:
-  number: 6
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -34,13 +34,8 @@ test:
 about:
   home: http://web.maths.unsw.edu.au/~dwarton, http://www.bitbucket.org/remkoduursma/smatr
   license: GPL-2.0-only
-  summary: Methods for fitting bivariate lines in allometry using the major axis (MA) or standardised
-    major axis (SMA), and for making inferences about such lines. The available methods
-    of inference include confidence intervals and one-sample tests for slope and elevation,
-    testing for a common slope or elevation amongst several allometric lines, constructing
-    a confidence interval for a common slope or elevation, and testing for no shift
-    along a common axis, amongst several samples.  See Warton et al. 2012 <doi:10.1111/j.2041-210X.2011.00153.x>
-    for methods description.
+  summary: Methods for fitting bivariate lines in allometry using the major axis (MA) or standardised major axis (SMA), and for making inferences about such lines. The available methods of inference include confidence intervals and one-sample tests for slope and elevation, testing for a common slope or elevation 
+    amongst several allometric lines, constructing a confidence interval for a common slope or elevation, and testing for no shift along a common axis, amongst several samples.  See Warton et al. 2012 <doi:10.1111/j.2041-210X.2011.00153.x> for methods description.
   license_family: GPL2
   license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
 
