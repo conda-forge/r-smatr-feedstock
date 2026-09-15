@@ -23,8 +23,20 @@ requirements:
     - {{ posix }}zip               # [win]
   host:
     - r-base
+    - r-dplyr
+    - r-tidyr
+    - r-stringr
+    - r-rlang
+    - r-magrittr
+    - r-ggplot2
   run:
     - r-base
+    - r-dplyr
+    - r-tidyr
+    - r-stringr
+    - r-rlang
+    - r-magrittr
+    - r-ggplot2
 
 test:
   commands:
